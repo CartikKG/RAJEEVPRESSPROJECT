@@ -1,0 +1,120 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+ul {
+  display: flex;
+  margin: 20px 20px;
+  text-decoration: none;
+  width: 94%;
+  justify-content: space-between;
+}
+
+#logo img {
+  position: relative;
+  margin: 21px -6px;
+  height: 63px;
+  width: 126px;
+}
+
+#navbar {
+  align-items: center;
+  flex-direction: column;
+  padding: 0%;
+}
+
+#navbar li a {
+  text-align: center;
+  font-size: 11px;
+}
+
+#navbar li {
+  margin: -10px 0px;
+}
+
+#serices,
+.box1 {
+  /* flex-direction: column; */
+  /* padding: 5px 50px; */
+  margin: 26px 55px;
+}
+
+#home {
+  display: flex;
+  /* flex-direction: column; */
+  margin: 35px 67px;
+  height: 450px;
+
+  padding: 2px 5px;
+  /* justify-content: center;
+  align-items: flex-end; */
+}
+
+#home::before {
+  /* width: 410px; */
+  width: 100%;
+}
+
+/* #serices,
+.box1 {
+  flex-direction: column;
+  padding: -31px 50px;
+  margin: -45px -34px;
+} */
+#client img {
+  height: 20px;
+  width: auto;
+}
+
+#contact::before {
+  width: 100%;
+}
+
+#contact-box form {
+  flex-direction: wrap;
+  width: 90%;
+  padding: 42px;
+}
+
+#client-section::before {
+  width: 410px;
+}
+
+.h-primary {
+  font-size: 1.5rem;
+  /* margin-top: 104px; */
+  /* margin-bottom: -73px:; */
+}
+
+#serices .box1 img {
+  position: relative;
+  /* margin: 8px -40px; */
+  /* height: 190px; */
+  width: 100%;
+  margin: auto;
+  /* margin-left: 40px; */
+}
+
+.h-secoundary {
+  font-size: 1.5rem;
+}
+
+.h-primary {
+  font-size: 1.5rem;
+}
+
+.h-secoundary {
+  font-size: 1.5rem;
+}
+
+.slideshow-container {
+  position: absolute;
+  /* width: 60%; */
+  padding: 36px 77px;
+}
+
+.btn {
+  padding: 5px 20px;
+  margin: 15px 80px;
+}
